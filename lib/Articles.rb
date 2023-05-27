@@ -11,22 +11,22 @@ class Article
         @@all << self
     end
 
-    # Returns the title for that given article.
+    # Returns the title for that given article
     def title
         @title
     end
 
-    # Returns an array of all Article instances.
+    # Returns an array of all Article instances
     def self.all
         @@all
     end
 
-    # Returns the author of that given article.
+    # Returns the author of that given article
     def author
         @author
     end
 
-    # Returns the magazine for that given article.
+    # Returns the magazine for that given article
     def magazine
         @magazine
     end
